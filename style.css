@@ -1,0 +1,46 @@
+body{
+    margin: 100px auto;
+    width: 50%;
+    background-color: #34D6B4;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    background-color: #3D3D3D;
+    border-radius: 10px;
+    padding: 50px;
+}
+.items input{
+    background-color: white;
+    border: none;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #3D3D3D;
+    text-transform: capitalize;
+}
+.item-5 input{
+    background-color: #34D6B4;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+#text{
+    color: white;
+    background-color: #34D6B4;
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-size: 20px;
+   
+}
+#result{
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    line-height: 1cm;
+}
